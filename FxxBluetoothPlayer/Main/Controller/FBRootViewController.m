@@ -6,13 +6,13 @@
 //  Copyright © 2017年 Baird-weng. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "FBRootViewController.h"
 
-@interface ViewController ()
+@interface FBRootViewController ()
 
 @end
 
-@implementation ViewController
+@implementation FBRootViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -6,4 +6,5 @@ pod 'Masonry'
 pod 'MBProgressHUD'
 pod 'DOUAudioStreamer', '0.2.11'
 pod 'GVUserDefaults'
+pod 'RESideMenu', '~> 4.0.7'
 end

@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "FBRootViewController.h"
+#import "RESideMenu.h"
+#import "FBLeftViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:[[FBRootViewController alloc] init]];
+    FBLeftViewController *fbleftViewController = [[FBLeftViewController alloc]init];
+    RESideMenu  *sideMenuViewController = [[RESideMenu alloc]initWithContentViewController:navigationController leftMenuViewController:fbleftViewController rightMenuViewController:nil];
+    self.window.rootViewController = sideMenuViewController;
     return YES;
 }
 

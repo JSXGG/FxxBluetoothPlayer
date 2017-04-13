@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "FBBaseViewController.h"
+@interface FBRootViewController : FBBaseViewController
 
 
 @end
