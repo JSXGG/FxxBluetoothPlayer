@@ -7,7 +7,7 @@
 //
 
 #import "FBRootViewController.h"
-
+#import "MusicListViewController.h"
 @interface FBRootViewController ()
 
 @end
@@ -16,6 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MusicList" bundle:[NSBundle mainBundle]];
+    UIViewController *ViewController = [storyboard instantiateViewControllerWithIdentifier:@"musicList"];
+    [self.view addSubview:ViewController.view];
+    [self addChildViewController:ViewController];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

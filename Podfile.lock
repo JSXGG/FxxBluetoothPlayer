@@ -16,6 +16,9 @@ PODS:
     - AFNetworking/NSURLSession
   - DOUAudioStreamer (0.2.11)
   - GVUserDefaults (1.0.2)
+  - Mantle (1.5.5):
+    - Mantle/extobjc (= 1.5.5)
+  - Mantle/extobjc (1.5.5)
   - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
   - RESideMenu (4.0.7)
@@ -27,20 +30,22 @@ DEPENDENCIES:
   - AFNetworking
   - DOUAudioStreamer (= 0.2.11)
   - GVUserDefaults
+  - Mantle (= 1.5.5)
   - Masonry
   - MBProgressHUD
   - RESideMenu (~> 4.0.7)
-  - SDWebImage (~> 3.8)
+  - SDWebImage
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   DOUAudioStreamer: 8aefc3e80eb6c01ec89fa3c30743c660e8c55bae
   GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
+  Mantle: 1b29072a707453975b200a173cf77ec1e2810b75
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   RESideMenu: f24c508404b49c667344c54aba7e590883533958
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: 8daf4eaa1e20729b21f20f2366303f9e949b950c
+PODFILE CHECKSUM: 7acf7972a8d60a3b79ca6ab2d7f290cf850d7a04
 
 COCOAPODS: 1.1.1
