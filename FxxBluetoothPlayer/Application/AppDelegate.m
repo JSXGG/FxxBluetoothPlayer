@@ -22,6 +22,8 @@
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:[[FBRootViewController alloc] init]];
     FBLeftViewController *fbleftViewController = [[FBLeftViewController alloc]init];
     RESideMenu  *sideMenuViewController = [[RESideMenu alloc]initWithContentViewController:navigationController leftMenuViewController:fbleftViewController rightMenuViewController:nil];
+    sideMenuViewController.backgroundImage = [UIImage imageNamed:@"Stars"];
+
     self.window.rootViewController = sideMenuViewController;
     return YES;
 }

@@ -12,4 +12,8 @@
 #import "FBAFNetworking.h"
 #define NAVIGARIONBLACKCOLOR [UIColor colorWithHexString:@"2196F3"]
 #define NAVIGARIONBTITLECOLOR [UIColor whiteColor]
+#define ScreenHeight [[UIScreen mainScreen] bounds].size.height/*获取设备的高度*/
+#define ScreenWidth [[UIScreen mainScreen] bounds].size.width/*获取设备的宽度*/
+#import "UIViewController+RESideMenu.h"
+
 #endif /* FBdefine_h */
